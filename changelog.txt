@@ -1,0 +1,39 @@
+==================
+GProxy++ Changelog
+==================
+
+Public Test Release 1.0 (March 11, 2010)
+ - reduced public game list refresh interval from 20 seconds to 15 seconds
+ - removed games from the Warcraft III LAN screen when exiting
+
+Beta 15 (Feb. 25, 2010)
+ - fixed a bug where GProxy++ would display an invalid value for time remaining when there was less than 5 seconds remaining
+ - renamed some commands
+
+Beta 14 (Feb. 17, 2010)
+ - fixed a bug where a GProxy++ player dropping during loading could cause the game to wait forever (this also required some server side fixes)
+ - the disconnect protection doesn't actually begin until the game finishes loading now
+ - added /list command
+ - added /filter command
+ - added /filteroff command
+ - reliable games are now listed in blue in Warcraft III (standard games are still listed in white)
+
+Beta 13 (Feb. 14, 2010)
+ - added support for connecting to pvpgn servers
+ - added /sc command
+ - printed a message in the lobby if your name is changed after joining
+
+Beta 12 (Feb. 14, 2010)
+ - added support for listing and joining unreliable games
+ - note that although you can now join unreliable public games, GProxy++ will not be able to reconnect to those games
+ - a message will be printed in the lobby informing you if this is the case
+
+Beta 11 (Feb. 12, 2010)
+ - added Linux support
+
+Beta 10 (Feb. 7, 2010)
+ - fixed a bug where numpad symbols were ignored in the console
+
+Beta 9 (Feb. 7, 2010)
+ - added /start command
+ - fixed a bug where connected GProxy++ users would drop after waiting 60 seconds for another GProxy++ user to reconnect
