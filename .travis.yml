@@ -1,22 +1,16 @@
 sudo: required
-dist: trusty
-
-language: cpp
-os: linux
-compiler: gcc
 
 branches:
   only:
     - master
 
-addons:
-  apt:
-    packages:
-      - m4
-      - zlib1g-dev
-      - build-essential
-      - libbz2-dev
-      - libgmp3-dev
+language: cpp
+os: linux
+compiler: gcc
+
+before_install:
+  - sudo apt-get update --fix-missing
+  - sudo apt-get install build-essential m4 zlib1g-dev libbz2-dev libgmp3-dev automake
 
 script:
   - cd bncsutil/src/bncsutil && make && sudo make install
