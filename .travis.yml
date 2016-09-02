@@ -14,4 +14,4 @@ before_install:
 
 script:
   - cd bncsutil/src/bncsutil && make && sudo make install
-  - cd gproxy && make
+  - cd ../../../gproxy && make
