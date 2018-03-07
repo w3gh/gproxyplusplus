@@ -1,5 +1,5 @@
 =================================================
-GProxy++ Public Test Release 1.0 (March 11, 2010)
+# GProxy++ Public Test Release 1.0 (March 11, 2010)
 =================================================
 
 GProxy++ is a "disconnect protection" tool for use with Warcraft III when connecting to specially configured GHost++ servers.
@@ -15,14 +15,14 @@ There are a few extra features that help you filter game lists based on the type
 Any games created by a reconnect-enabled host will be listed in blue in your game list on the LAN screen.
 
 =========================
-Where can I use GProxy++?
+## Where can I use GProxy++?
 =========================
 
 This version of GProxy++ uses the LAN connection to find games through battle.net and PVPGN networks, but it is open source and can be freely adapted to work with any other platforms.
 Many are looking into adapting it for their platforms as we speak.
 
 =============
-Configuration
+## Configuration
 =============
 
 When you start GProxy++ for the first time it will ask you to enter some required information.
@@ -56,13 +56,13 @@ Note that GProxy++ is compatible with Warcraft III: Reign of Chaos.
 If you do not want to play The Frozen Throne just remove your TFT CD key from the config file or do not enter it when starting GProxy++ for the first time.
 
 ====
-Help
+## Help
 ====
 
 Type /help at any time for help when using GProxy++.
 
 ========
-Commands
+## Commands
 ========
 
 In the GProxy++ console:
