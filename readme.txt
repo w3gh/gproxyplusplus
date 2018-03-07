@@ -1,4 +1,3 @@
-=================================================
 # GProxy++ Public Test Release 1.0 (March 11, 2010)
 =================================================
 
@@ -14,14 +13,14 @@ You can also use GProxy++ for regular chat or channel monitoring.
 There are a few extra features that help you filter game lists based on the type of game you are looking for, make note of the commands below.
 Any games created by a reconnect-enabled host will be listed in blue in your game list on the LAN screen.
 
-=========================
+
 ## Where can I use GProxy++?
 =========================
 
 This version of GProxy++ uses the LAN connection to find games through battle.net and PVPGN networks, but it is open source and can be freely adapted to work with any other platforms.
 Many are looking into adapting it for their platforms as we speak.
 
-=============
+
 ## Configuration
 =============
 
@@ -55,13 +54,13 @@ passwordhashtype	used with PVPGN servers (set to "pvpgn" when connecting to a PV
 Note that GProxy++ is compatible with Warcraft III: Reign of Chaos.
 If you do not want to play The Frozen Throne just remove your TFT CD key from the config file or do not enter it when starting GProxy++ for the first time.
 
-====
+
 ## Help
 ====
 
 Type /help at any time for help when using GProxy++.
 
-========
+
 ## Commands
 ========
 
@@ -86,8 +85,8 @@ In game:
 /status			show status information
 /w <user> <message>	whispers <message> to <user>
 
-=================
-Technical Details
+
+## Technical Details
 =================
 
 GProxy++, as you may have guessed, proxies the connection from Warcraft III to the GHost++ server.
